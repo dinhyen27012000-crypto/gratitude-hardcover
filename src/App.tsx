@@ -4,7 +4,7 @@ import Admin from './components/Admin';
 import { loadBook } from './lib/bookData';
 import { isSupabaseConfigured, supabase } from './lib/supabase';
 import type { TeacherChapter } from './types';
-
+import React from 'react'
 export default function App() {
   const [admin, setAdmin] = useState(false);
   const [chapters, setChapters] = useState<TeacherChapter[]>([]);
