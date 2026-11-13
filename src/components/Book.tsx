@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'motion/react';
 import { ArrowLeft, ArrowRight, BookOpen, List, X } from 'lucide-react';
 import type { TeacherChapter } from '../types';
 import { getSubjectTheme } from '../data/subjectThemes';
-
+import React from 'react'
 type Props = { chapters: TeacherChapter[]; onAdmin: () => void };
 
 type Page = { key: string; kind: string; teacher?: TeacherChapter };
