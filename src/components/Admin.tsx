@@ -3,7 +3,7 @@ import { supabase, CARD_BUCKET } from '../lib/supabase';
 import type { Session } from '@supabase/supabase-js';
 import { ArrowLeft, LogOut, Plus, Upload, Trash2, RefreshCw } from 'lucide-react';
 import type { Teacher } from '../types';
-
+import React from 'react'
 type Props = { onBack: () => void };
 
 export default function Admin({ onBack }: Props) {
